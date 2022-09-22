@@ -59,6 +59,7 @@ export default function Userinterface() {
                                 </div>
                                 
                             </div>
+                            {/*Aquí abajo: Clima para hora y días */}
                             <div class="row px-3 mt-3 mb-3">
                                 <div class="d-flex flex-column text-center mx-4">
                                     <small>10:30 </small>
