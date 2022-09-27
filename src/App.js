@@ -15,16 +15,13 @@ function App() {
                 <div class="row d-flex justify-content-center">
                     <div class="row card0">
                         <div class="card1 col-lg-8 col-md-7">
-
                           <Headerunit/>
                           <Mainday/>
                           <Infodetail/>
-
                         </div>
                         <div class="card2 col-lg-4 col-md-5">
                           <Searchbar/>
-                          <Citiesandmore/>
-
+                          <Citiesandmore name="Weather Details" sunny="poto" other="rrr"/>
                         </div>
                     </div>
                 </div>
