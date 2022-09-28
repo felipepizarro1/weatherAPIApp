@@ -4,11 +4,18 @@ import Mainday from './components/Mainday';
 import Infodetail from './components/Infodetail';
 import Searchbar from './components/Searchbar';
 import Citiesandmore from './components/Citiesandmore';
+import getFormattedWeatherData from './services/weatherServices';
+
 
 
 function App() {
 
+  const fetchWeather = async () => {
+    const data = await getFormattedWeatherData({ q: "tokyo"});
+    console.log(data);
+  };
 
+  fetchWeather();
   
   return (
               <div class="container-fluid px-1 px-sm-3 py-5 mx-auto">
