@@ -23,7 +23,7 @@ function App() {
                     <div class="row card0">
                         <div class="card1 col-lg-8 col-md-7">
                           <Headerunit/>
-                          <Mainday/>
+                          <Mainday cityname={JSON.stringify(data.name)}/>
                           <Infodetail/>
                         </div>
                         <div class="card2 col-lg-4 col-md-5">
